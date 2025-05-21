@@ -1,8 +1,7 @@
 services:
   app:
     build: .
-    container_name: gender-classifier-api
-    command: tail -f /dev/null
+    container_name: gender-classification
     ports:
       - 8000:8000
     volumes:
